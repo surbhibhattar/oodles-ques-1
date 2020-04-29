@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.repo .row{
+  margin: 10px;
+}
+
+
+.solid-border{
+  border:2px solid;
+  padding:10px;
+  margin-bottom: 10px;
+}
+
+.url{
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.url:hover{
+  overflow: visible;
+}
+
+.item {
+  width: 100px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > .item{
+  flex: 0 50%;
+  border: red solid;
+  box-sizing:border-box
+}
